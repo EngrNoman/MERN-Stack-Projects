@@ -29,6 +29,7 @@ function Login() {
       const url = `https://registration-form-using-mern-api.vercel.app/auth/login`;
       const response = await fetch(url, {
         method: "POST",
+        mode: 'no-cors',
         headers: {
           "Content-Type": "application/json",
         },
