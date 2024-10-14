@@ -26,7 +26,7 @@ function Login() {
       return handleError("email and password are required");
     }
     try {
-      const url = `https://registration-form-using-mern-api.vercel.app/auth/login`;
+      const url = `https://cors-anywhere.herokuapp.com/https://registration-form-using-mern-api.vercel.app/auth/login`;
       const response = await fetch(url, {
         method: "POST",
         headers: {
