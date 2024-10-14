@@ -27,7 +27,7 @@ function SignUp() {
     }
 
     try {
-      const url = `https://registration-form-using-mern-api.vercel.app/auth/signup`;
+      const url = `https://cors-anywhere.herokuapp.com/https://registration-form-using-mern-api.vercel.app/auth/signup`;
 
       const response = await fetch(url, {
         method: "POST",
